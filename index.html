@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción al Desarrollo Web</title>
+</head>
+
+<body>
+
+    <!-- PUNTO 1: ENCABEZADO Y PRESENTACIÓN -->
+
+    <header>
+        <h1>UNIVERSIDAD TECNOLÓGICA DE PANAMÁ</h1>
+
+        <h2>Introducción al Desarrollo Web</h2>
+
+        <p>
+            Bienvenidos al curso de Introducción al Desarrollo Web.
+            En este espacio conoceremos los fundamentos de la creación
+            de páginas web, su funcionamiento, sus principales tipos
+            y los elementos que permiten presentar información a través
+            de Internet. El objetivo es comprender cómo se estructura
+            una página web utilizando HTML y reconocer su importancia
+            en la comunicación, la educación y el acceso a la información.
+        </p>
+    </header>
+
+    <hr>
+
+    <!-- PUNTO 2: CONTENIDO EXPLICATIVO -->
+
+    <main>
+        <section>
+            <h2>¿Qué es una página web?</h2>
+
+            <p>
+                Una página web es un documento digital que puede
+                visualizarse mediante un navegador web y al que se
+                accede normalmente a través de Internet. Puede contener
+                texto, imágenes, enlaces, videos, audios y otros
+                elementos que permiten presentar información de manera
+                organizada. HTML (HyperText Markup Language) es el
+                lenguaje de marcado utilizado para definir la estructura
+                y el contenido de una página web.
+            </p>
+        </section>
+
+        <section>
+            <h2>¿Cómo funciona una página web?</h2>
+
+            <p>
+                Cuando una persona escribe una dirección web o selecciona
+                un enlace, el navegador solicita los recursos necesarios
+                al servidor donde se encuentra alojada la página.
+                El servidor responde con los archivos correspondientes
+                y el navegador interpreta el contenido para mostrarlo
+                al usuario.
+            </p>
+
+            <p>
+                En este proceso, HTML organiza el contenido de la página.
+                Otros recursos, como las hojas de estilo y los lenguajes
+                de programación, pueden utilizarse para modificar su
+                presentación o incorporar funciones interactivas.
+                Sin embargo, para esta asignación se utilizará únicamente
+                HTML.
+            </p>
+        </section>
+
+        <section>
+            <h2>Tipos de páginas web</h2>
+
+            <h3>Páginas web estáticas</h3>
+
+            <p>
+                Una página web estática presenta contenido que permanece
+                esencialmente igual para los visitantes, salvo que sus
+                archivos sean modificados. Su información suele estar
+                escrita directamente en documentos HTML y puede
+                consultarse sin necesidad de generar contenido diferente
+                para cada solicitud. Un ejemplo es una página informativa
+                que presenta la historia y los datos de una institución.
+            </p>
+
+            <h3>Páginas web dinámicas</h3>
+
+            <p>
+                Una página web dinámica puede generar o actualizar su
+                contenido según las acciones del usuario, los datos
+                disponibles o la información solicitada. Para ello,
+                normalmente utiliza programación y, en muchos casos,
+                comunicación con un servidor o una base de datos.
+                Algunos ejemplos son las plataformas educativas que
+                muestran las calificaciones de cada estudiante y los
+                sitios de comercio electrónico que actualizan sus
+                productos y carritos de compra.
+            </p>
+        </section>
+
+        <section>
+            <h2>Diferencia entre un sitio web y una aplicación web</h2>
+
+            <h3>Sitio web</h3>
+
+            <p>
+                Un sitio web es un conjunto de páginas web relacionadas
+                entre sí que se encuentran bajo un mismo dominio y
+                presentan información sobre un tema, una organización,
+                un servicio u otra finalidad. Por ejemplo, un sitio web
+                institucional puede incluir páginas sobre la universidad,
+                sus carreras, sus autoridades y sus datos de contacto.
+            </p>
+
+            <h3>Aplicación web</h3>
+
+            <p>
+                Una aplicación web es un sistema al que se accede mediante
+                un navegador y que permite realizar operaciones o
+                interactuar con funciones específicas. Puede procesar
+                información, recibir datos del usuario y ofrecer
+                resultados personalizados. Algunos ejemplos son una
+                plataforma de banca en línea, un sistema de inscripción
+                universitaria o una aplicación para gestionar tareas.
+            </p>
+
+            <p>
+                La diferencia principal está en su propósito y
+                funcionalidad: un sitio web suele centrarse en presentar
+                información, mientras que una aplicación web está
+                orientada a permitir que el usuario realice tareas
+                mediante sus funciones. Ambos conceptos pueden
+                superponerse, ya que un mismo sitio puede incorporar
+                funcionalidades propias de una aplicación web.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- PUNTO 3: ELEMENTOS MULTIMEDIA -->
+
+        <section>
+            <h2>Elementos multimedia del desarrollo web</h2>
+
+            <p>
+                Las páginas web pueden incorporar diferentes recursos
+                multimedia para complementar la información, facilitar
+                la comprensión de los contenidos y ofrecer una experiencia
+                más completa al visitante.
+            </p>
+
+            <h3>Imagen representativa del desarrollo web</h3>
+
+            <p>
+                La siguiente imagen representa el entorno de creación
+                de páginas web y el uso de HTML para organizar su contenido.
+            </p>
+
+            <img
+                src="imagen/ilustracion.png"
+                alt="Ilustración representativa del desarrollo web"
+                width="400"
+            >
+
+            <h3>Video educativo sobre desarrollo web</h3>
+
+            <p>
+                El siguiente video permite complementar los conceptos
+                explicados y conocer más sobre los fundamentos del
+                desarrollo web.
+            </p>
+
+            <!-- Permite insertar un video de youtube dentro de la página. -->
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/rWfditAgAfA"
+                title="Video educativo sobre desarrollo web"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+            </iframe>
+
+            <h3>Audio complementario</h3>
+
+            <p>
+                Este recurso de audio puede utilizarse como material
+                complementario para reforzar la información presentada
+                en esta página.
+            </p>
+
+            <!-- Incorpora un reproductor de audio con controles. -->
+            <audio controls>
+                <source src="audio/explicacion.mp3" type="audio/mpeg">
+                <!-- Mensaje alternativo si el navegador no admite el elemento del audio. -->
+                Tu navegador no puede reproducir este archivo de audio.
+            </audio>
+
+        </section>
+
+        <hr>
+         
+        <!-- PUNTO 4: ENLACES -->
+
+        <section>
+            <h2>Enlaces de interés</h2>
+            
+            <p>
+            <a href="formulario.html">Ir al formulario de inscripción</a>
+            </p>
+            
+            <p>
+            <!-- Enlace externo que dirige al usuario a otro sitio web. -->
+            <a href="https://developer.mozilla.org/es/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax" target="_blank">
+                Aprender más sobre HTML
+            </a>
+            </p>
+            
+            <p>
+            <a href="tabla.html">
+                Tipos de páginas web
+            </a>
+            </p>
+
+            <!-- Enlace de correo electrónico, permite iniciar un mensaje de email. -->
+            <p>
+            <a href="mailto:alonso.gonzalez2@utp.ac.pa">
+                Contactar al profesor
+            </a>
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- PUNTO 5: FORMULARIO -->
+         
+        <section>
+            <h2 id="formulario">Formulario de inscripción</h2>
+            
+            <!-- Define el formulario que contiene los campos de entrada. -->
+            <form action="#" method="get">
+            
+            <!-- Etiqueta para identificar el campo. -->
+            <label for="nombre">Nombre:</label>
+            <!-- Campo para introducir el dato requerido. -->
+            <input type="text" id="nombre" name="nombre" required>
+            <br><br>
+            
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+            <br><br>
+            
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena"
+                    name="contrasena" required>
+            <br><br>
+            
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            <br><br>
+            
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input type="date" id="fecha" name="fecha" required>
+            <br><br>
+            
+            <label for="cedula">Cédula:</label>
+            <input type="text" id="cedula" name="cedula" required>
+            <br><br>
+            
+            <p>Modalidad de estudio:</p>
+            
+            <input type="radio" id="presencial"
+                    name="modalidad" value="Presencial" required>
+            <label for="presencial">Presencial</label>
+            
+            <input type="radio" id="virtual"
+                    name="modalidad" value="Virtual">
+            <label for="virtual">Virtual</label>
+            <br><br>
+            
+            <label for="comentarios">Comentarios:</label>
+            <br>
+            <textarea id="comentarios" name="comentarios"
+                        rows="5" cols="40"></textarea>
+            <br><br>
+            
+            <input type="submit" value="Enviar inscripción">
+            <input type="reset" value="Limpiar formulario">
+            
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- PUNTO 6: TABLA -->
+         <section>
+            <h2>Tipos de páginas web</h2>
+ 
+            <!-- Organiza la información en filas y columnas. -->
+            <table border="1" cellpadding="10">
+            <tr>
+                <th>Tipo de Página Web</th>
+                <th>Descripción</th>
+                <th>Ejemplo</th>
+            </tr>
+            
+            <tr>
+                <td>Estática</td>
+                <td>Presenta contenido fijo.</td>
+                <td>Página informativa</td>
+            </tr>
+            
+            <tr>
+                <td>Dinámica</td>
+                <td>Su contenido puede cambiar.</td>
+                <td>Facebook</td>
+            </tr>
+            
+            <tr>
+                <td>Aplicación web</td>
+                <td>Permite realizar tareas interactivas.</td>
+                <td>Google Docs</td>
+            </tr>
+            </table>
+            
+         </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>
+            Introducción al Desarrollo Web |
+            universidad Tecnológica de Panamá
+        </p>
+    </footer>
+
+</body>
+</html>
